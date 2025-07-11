@@ -8,7 +8,7 @@ public class DBConnector {
 	private static String driverName = "com.mysql.jdbc.Driver";
 	//jdbcのドライバーの名前を変数に代入している。ドライバーはJavaとデータベースを繋げる工具箱。
 
-	private static String url = "jdbc:mysql://localhost/testdb?autoReconnct=true&useSSL=false";
+	private static String url = "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
 
 	private static String user = "root";
 	private static String password = "root";

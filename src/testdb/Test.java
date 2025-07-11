@@ -6,7 +6,8 @@ public class Test {
 		// TODO 自動生成されたメソッド・スタブ
 
 		TestUserDAO dao = new TestUserDAO();
-		dao.select("taro", "123");
+		dao.select("taro","123");
+		dao.selectAll();
 	}
 
 }
