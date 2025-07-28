@@ -83,7 +83,7 @@ public class TestUserDAO {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 
-		String sql = "select * from testtable where password=?";
+		String sql = "select * from test_table where password=?";
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, password);
