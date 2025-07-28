@@ -8,6 +8,7 @@ public class Test {
 		TestUserDAO dao = new TestUserDAO();
 		dao.select("taro", "123");
 		dao.selectAll();
+		dao.selectByName("taro");
 	}
 
 }
