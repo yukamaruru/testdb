@@ -8,8 +8,7 @@ public class DBConnector {
 
 	private static String driverName = "com.mysql.jdbc.Driver";
 
-	private static String url = "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSl=false";
-
+	private static String url = "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
 	private static String user = "root";
 	private static String password = "root";
 
@@ -24,7 +23,7 @@ public class DBConnector {
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
-		return con;
+		return con ;
 	}
 }
 
